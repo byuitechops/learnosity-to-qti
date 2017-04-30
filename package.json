@@ -1,7 +1,7 @@
 {
-  "name": "get-qti-from-learnosity",
+  "name": "learnosity-to-qti",
   "version": "1.0.0",
-  "description": "",
+  "description": "- go here : http://windows.php.net/download\r - get the 5.6 one - not sure about the threrads\r - unzip\r - find the php.ini-development or production (i did development)\r - copy and rename to just php.ini\r - then edit that file\r \t- uncomment 734\r \t\t- extension_dir = \"ext\"\r \t- uncomment line 903\r \t\t- extension=php_openssl.dll\r - add php folder to path\r - cli vs cgi? \r \t- http://stackoverflow.com/questions/15597067/how-to-run-php-from-windows-command-line\r \t- http://php.net/manual/en/features.commandline.php\r \t- http://php.net/manual/en/features.commandline.introduction.php",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +12,6 @@
     "chalk": "^1.1.3",
     "got": "^6.7.1",
     "learnosity-sdk-nodejs": "git+https://github.com/omnimike/learnosity-sdk-nodejs.git"
-  }
+  },
+  "devDependencies": {}
 }
