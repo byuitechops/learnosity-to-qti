@@ -28,7 +28,11 @@ echo '<p>Hello World</p>';
 - get Windows installer
 - run it will ask for php location
 	- well maybe it wont if you added php to the path already
+- basic useage `https://getcomposer.org/doc/01-basic-usage.md`
+
 # using composer installed packages
+- first make compser.json
+- then run `composer install`
 - example here
 	- https://dzone.com/articles/including-php-libraries
 - need this in your file
