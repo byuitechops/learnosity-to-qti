@@ -1,0 +1,5 @@
+  {
+      "require": {
+          "learnosity/learnosity-qti": "0.*"
+      }
+  }
