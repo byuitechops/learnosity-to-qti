@@ -6,12 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Joshua McKinney",
-  "license": "MIT",
   "dependencies": {
     "chalk": "^1.1.3",
     "got": "^6.7.1",
     "learnosity-sdk-nodejs": "git+https://github.com/omnimike/learnosity-sdk-nodejs.git"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "author": "Joshua McKinney",
+  "license": "MIT"
 }
